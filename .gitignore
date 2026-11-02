@@ -1,0 +1,7 @@
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar   # ← ВАЖНО: разрешаем wrapper.jar
+
+# Исключаем другие .jar, если они есть в проекте
+# Но НЕ исключаем gradle-wrapper.jar!
