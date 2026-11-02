@@ -1,23 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "custom-client",
+  "id": "pylsevisual",
   "version": "${version}",
-  "name": "Custom Client Template",
-  "description": "Кастомный клиент с модульной архитектурой",
-  "authors": ["ВашНик"],
+  "name": "PylseVisual Client",
+  "description": "Кастомный клиент для серверов",
+  "authors": ["apa768799-coder"],
   "contact": {
-    "homepage": "https://github.com/ваш-username/ваш-repo",
-    "sources": "https://github.com/ваш-username/ваш-repo"
+    "homepage": "https://github.com/apa768799-coder/pylsevisual",
+    "sources": "https://github.com/apa768799-coder/pylsevisual"
   },
   "license": "MIT",
-  "icon": "assets/custom-client/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
       "com.example.client.ClientMod"
     ]
   },
-  "mixins": [],
   "depends": {
     "fabricloader": ">=0.16.0",
     "fabric-api": "*",
